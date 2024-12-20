@@ -1,0 +1,56 @@
+/* skills section starts */
+.skills {
+  min-height: 90vh;
+  background: linear-gradient(to bottom, white, white);
+  border-radius: 2%;
+}
+.skills h2 {
+  color: black;
+}
+/* .skills .heading span {
+  color: rgb(2, 2, 1);
+} */
+.skills .container {
+    background: rgba(6, 4, 4, 0.4); /* color of container of blocks */
+    color: #181616;
+    border-radius: 1rem;
+    padding: 0.5rem; /* Further reduced padding */
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem; /* Reduced margin-top */
+  }
+  
+  .skills .container .row {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem; /* Reduced gap between items */
+  }
+  
+.skills .container .bar {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background: rgba(173, 173, 192, 0.9);
+  transition: 0.2s;
+}
+.skills .container .bar:hover {
+  box-shadow: 0 8px 10px rgba(237, 237, 248, 0.8) !important;
+  background-color: rgba(255, 250, 250, 0.9) !important;
+}
+.skills .container .bar .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.skills .container .bar .info i {
+  font-size: 4rem;
+}
+.skills .container .bar .info span {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: "Poppins";
+  margin-left: 0.5rem;
+}
