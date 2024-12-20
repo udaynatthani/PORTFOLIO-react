@@ -1,18 +1,18 @@
 .about .row {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   gap: 2rem;
   padding: 4rem;
 }
 
 .about .row .image {
-  flex: 1 1 45%; 
-  text-align: centre; 
-  
+  flex: 1 1 100%; 
+  text-align: center; 
+
 }
 /* .row  {
-  background-color: #77777b;
+  background-col or: #77777b;
   border-radius: 4%;
 } */
 
@@ -28,9 +28,9 @@
 }
 
 .about .row .content {
-  flex: 1 1 55%;
+  flex: 1 1 100%;
   padding: 3rem;
-  text-align: left; 
+  text-align: center; 
 }
 .about .row .content h3 {
   color: rgb(27, 27, 27);
